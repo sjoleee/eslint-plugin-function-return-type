@@ -40,4 +40,9 @@ function test(): string {
 const test = function (): string {
   return "test";
 };
+
+// Component(start with capital)
+const Test = () => {
+  return <></>;
+};
 ```
