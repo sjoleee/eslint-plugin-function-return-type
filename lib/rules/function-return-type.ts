@@ -7,7 +7,7 @@ import { AST_NODE_TYPES, TSESLint } from "@typescript-eslint/utils";
 
 type Message = "messageIdForFailure";
 
-export const rule: TSESLint.RuleModule<Message> = {
+const rule: TSESLint.RuleModule<Message> = {
   defaultOptions: [],
   meta: {
     type: "suggestion",

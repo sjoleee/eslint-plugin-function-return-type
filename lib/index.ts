@@ -1,4 +1,4 @@
-import { rule } from "./rules/function-return-type";
+import * as rule from "./rules/function-return-type";
 
 export default {
   rules: {
