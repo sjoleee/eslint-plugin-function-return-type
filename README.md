@@ -22,7 +22,7 @@ Add `function-return-type` to the plugins section of your `.eslintrc` configurat
 
 ```json
 {
-  "plugins": ["@sjoleee/eslint-plugin-function-return-type"]
+  "plugins": ["@sjoleee/function-return-type"]
 }
 ```
 
@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "@sjoleee/eslint-plugin-function-return-type/function-return-type": "warn"
+    "@sjoleee/function-return-type/function-return-type": "warn"
   }
 }
 ```
