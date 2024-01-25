@@ -8,8 +8,6 @@ This plugin does not guarantee accurate operation. It's being developed as a plu
 
 ## Rule Details
 
-This rule aims to...
-
 Examples of **incorrect** code for this rule:
 
 ```ts
