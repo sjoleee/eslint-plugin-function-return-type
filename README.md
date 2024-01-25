@@ -10,52 +10,28 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-function-return-type`:
+Next, install `@sjoleee/eslint-plugin-function-return-type`:
 
 ```sh
-npm install eslint-plugin-function-return-type --save-dev
+npm install @sjoleee/eslint-plugin-function-return-type --save-dev
 ```
 
 ## Usage
 
-Add `function-return-type` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `function-return-type` to the plugins section of your `.eslintrc` configuration file.
 
 ```json
 {
-    "plugins": [
-        "function-return-type"
-    ]
+  "plugins": ["@sjoleee/eslint-plugin-function-return-type"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "function-return-type/rule-name": 2
-    }
+  "rules": {
+    "@sjoleee/eslint-plugin-function-return-type/function-return-type": "warn"
+  }
 }
 ```
-
-
-
-## Configurations
-
-<!-- begin auto-generated configs list -->
-TODO: Run eslint-doc-generator to generate the configs list (or delete this section if no configs are offered).
-<!-- end auto-generated configs list -->
-
-
-
-## Rules
-
-<!-- begin auto-generated rules list -->
-
-| Name |
-| :--- |
-
-<!-- end auto-generated rules list -->
-
-

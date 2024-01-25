@@ -21,7 +21,7 @@ export const rule: TSESLint.RuleModule<Message> = {
       [AST_NODE_TYPES.VariableDeclaration]: (node) => {
         const isFunctionExpression =
           node.declarations[0].init?.type === "ArrowFunctionExpression" ||
-          "FunctionExpression";
+          node.declarations[0].init?.type === "FunctionExpression";
 
         const isCapitalName =
           node.declarations[0].id.type === "Identifier" &&
