@@ -2,6 +2,8 @@
 
 specify the type of return of the function
 
+[rule doc](https://github.com/sjoleee/eslint-plugin-function-return-type/blob/main/docs/rules/function-return-type.md)
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
