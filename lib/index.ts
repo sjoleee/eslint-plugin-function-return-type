@@ -1,5 +1,7 @@
 import { rule } from "./rules/function-return-type";
 
 export default {
-  "function-return-type": rule,
+  rules: {
+    "function-return-type": rule,
+  },
 };
