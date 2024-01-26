@@ -1,6 +1,6 @@
 {
   "name": "@sjoleee/eslint-plugin-function-return-type",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "TypeScript ESLint plugin, specify the returnType of the function",
   "keywords": [
     "eslint",
