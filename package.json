@@ -23,8 +23,7 @@
   },
   "dependencies": {
     "@typescript-eslint/types": "^6.19.1",
-    "@typescript-eslint/utils": "^6.19.1",
-    "requireindex": "^1.2.0"
+    "@typescript-eslint/utils": "^6.19.1"
   },
   "devDependencies": {
     "@types/eslint": "^8.56.2",
@@ -46,5 +45,10 @@
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/sjoleee/eslint-plugin-function-return-type",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjoleee/eslint-plugin-function-return-type.git"
   }
 }
