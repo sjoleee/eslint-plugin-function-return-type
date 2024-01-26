@@ -43,9 +43,6 @@
     "eslint": ">=7"
   },
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "homepage": "https://github.com/sjoleee/eslint-plugin-function-return-type",
   "repository": {
     "type": "git",
